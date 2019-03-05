@@ -7,7 +7,9 @@ public class Test {
        // objetcDemo();
        // staticClassDemo();
         //equallsDemo();
-        staticDynamicBinding();
+       // staticDynamicBinding();
+        multipleInheritenceDemo();
+       // ObjectInInheritence();
     }
 
     public static void covarientDemo()
@@ -36,5 +38,14 @@ public class Test {
         StaticDynamicBinding.main(null);
     }
 
+    public static void multipleInheritenceDemo()
+    {
+        MultipleInterface.showMI();
+    }
+
+    public static void ObjectInInheritence()
+    {
+        ObjectInheritence.objectInheritenceDemo();
+    }
 
 }
